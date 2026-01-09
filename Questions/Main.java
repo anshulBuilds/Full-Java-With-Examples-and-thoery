@@ -127,7 +127,7 @@ The setDetails() method is called with "Jax" and 10434 as arguments. This initia
 The displayDetails() method is invoked , which prints the student's details in the required format.
 */
 
-class Main{
+class ClassAndObj{
     private String name;
     private int rollNumber;
 
@@ -143,17 +143,5 @@ class Main{
 }
 
 public class ClassAndObj{
-    public static void main(String[] args) {
-        Main student1 = new Main();
-        student1.SetDetails("Striver", 1);
-        student1.DisplayDetails();
-
-        System.out.println("------------------------------");
-
-        Main student2 = new Main();
-        student2.SetDetails("Jax", 2);
-        student2.DisplayDetails();
-        
-    }
   
 }
